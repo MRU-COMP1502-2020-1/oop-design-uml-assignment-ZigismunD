@@ -1,0 +1,15 @@
+Sami Sikkila
+
+Q3.
+Prog2 has better design. Design of the prog1 is in my opininion
+in contradiction with the principles of object oriented programming.
+If all of the variables and functions are straightly accessible the
+writing and reading of the code can get difficult. Keeping them seperate
+makes it clear that objects have variables and functions and are separate parts
+of the whole program
+
+Q4.
+The boolean functions are introduced but their return value doesn't seem to
+used. The helper functions should all be private because outside world
+shouldn't need access to them seperately. I would run the validateLocation
+function in each read function so that only a one function should be called
